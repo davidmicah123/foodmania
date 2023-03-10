@@ -1,0 +1,34 @@
+.nav{
+    padding: 1rem 0;
+    width: 100vw;
+    background-image: url('../../Assets/images/menu-bg.jpg');
+    color: #fff;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+.logo_wrapper{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    align-self: center;
+}
+.logo{
+    height: 2.5rem;
+    align-self: center;
+}
+.nav_link_wrapper{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 30vw;
+    font-size: 1.1rem;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}

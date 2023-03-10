@@ -1,0 +1,30 @@
+/* restaurant */
+.restaurant_section{
+    padding: 2rem 0;
+    width: 85vw;
+    margin: 1rem auto;
+}
+.restaurant_header_wrapper{
+    width: 100%;
+}
+.restaurant_header{
+    font-size: 1.5rem;
+}
+.restaurant_card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 1rem;
+    margin: 1rem auto;
+}
+.restaurant_card{
+    display: flex;
+    gap: 1rem;
+    padding: 0.7rem;
+    cursor: pointer;
+    border: 1px solid rgb(230, 230, 230);
+}
+.restaurant_card_img{
+    width: 8rem;
+    height: 5.5rem;
+}

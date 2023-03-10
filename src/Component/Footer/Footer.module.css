@@ -1,0 +1,32 @@
+
+/* footer */
+.footer{
+    background: url('../../Assets/images/pattern.png') center repeat;
+    padding: 5.5rem 0;
+    color: white;
+    width: 100vw;
+}
+.footer_content_wrapper{
+    display: flex;
+    gap: 1rem;
+    width: 90vw;
+    margin: 0 auto;
+}
+.footer_address{
+    width: 25vw;
+}
+.footer_info{
+    width: 35vw;
+}
+.footer_payment_method{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.payment_option_wrapper{
+    display: flex;
+    gap: 0.5rem;
+}
+.footer_txt{
+    line-height: 2.5;
+}
