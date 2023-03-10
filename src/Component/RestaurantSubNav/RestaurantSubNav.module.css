@@ -17,10 +17,12 @@
 .sub_nav_div:hover .sub_nav_btn{
     background: #5c4ac7;
     color: #eaebeb;
+    border: none;
 }
 .active .sub_nav_btn{
     background: #5c4ac7;
     color: #eaebeb;
+    border: none;
 }
 .sub_nav_btn{
     border: none;
