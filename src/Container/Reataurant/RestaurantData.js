@@ -12,18 +12,24 @@ export const restaurantData = [
     },
     {
       Restaurant_img: bitemore,
-      Restaurant_name: "Mr Bigs",
-      Restaurant_description: "Mr Bigs is a family-friendly restaurant that serves up classic American comfort food with a modern twist. From burgers and fries to mac and cheese, their menu has something for everyone. The restaurant has a cozy, welcoming atmosphere that makes you feel right at home. With friendly staff and reasonable prices, Mr Bigs is a great option for a casual meal with family or friends."
+      Restaurant_name: "Iya Abula joint",
+      Restaurant_description: "Iya Abula joint is a family-friendly restaurant that serves up classic nigerian swallow dish with a modern twist. From burgers and fries to mac and cheese, their menu has something for everyone. The restaurant has a cozy, welcoming atmosphere that makes you feel right at home. With friendly staff and reasonable prices, Mr Bigs is a great option for a casual meal with family or friends."
     },
-    {
-      Restaurant_img: mrbigs,
-      Restaurant_name: "Chicken Republic",
-      Restaurant_description: "Chicken Republic is a popular fast food chain that is known for its delicious and affordable chicken meals. Their menu includes a variety of options, from fried chicken to grilled chicken sandwiches, as well as sides like coleslaw and fries. With multiple locations throughout the city, Chicken Republic is a convenient choice for a quick meal on the go."
-    },
+    // {
+    //   Restaurant_img: mrbigs,
+    //   Restaurant_name: "Chicken Republic",
+    //   Restaurant_description: "Chicken Republic is a popular fast food chain that is known for its delicious and affordable chicken meals. Their menu includes a variety of options, from fried chicken to grilled chicken sandwiches, as well as sides like coleslaw and fries. With multiple locations throughout the city, Chicken Republic is a convenient choice for a quick meal on the go."
+    // },
     {
       Restaurant_img: hexagon,
       Restaurant_name: "Kentucky Fried Chicken",
       Restaurant_description: "Kentucky Fried Chicken, or KFC, is a globally recognized fast food chain that specializes in fried chicken. Their secret blend of herbs and spices has made them a favorite among chicken lovers for decades. Their menu also includes sides like mashed potatoes and gravy, as well as desserts like biscuits and apple pie. With a drive-thru and dine-in options, KFC is a convenient and tasty choice for a quick meal."
+    },
+    {
+      Restaurant_img: hexagon,
+      Restaurant_name: "Domino's Pizza",
+      Restaurant_description: "Domino's Pizza is a well-known pizza chain that offers a wide variety of delicious pizza toppings and flavors, including their signature sauce made with vine-ripened tomatoes and a special blend of herbs and spices. In addition to pizza, they also offer sides like garlic bread and chicken wings, as well as desserts like chocolate lava cake. With delivery and carryout options, Domino's Pizza is a convenient and satisfying choice for any pizza lover."
     }
+    
   ]
   
