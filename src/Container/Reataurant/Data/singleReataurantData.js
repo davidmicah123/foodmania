@@ -1,6 +1,6 @@
 import React from "react";
 
-const allRestaurantData = [
+export const allRestaurantData = [
     {
         restaurant_name: "Hexagon",
         restaurant_overview: "We sell spicy and yummy food over here",

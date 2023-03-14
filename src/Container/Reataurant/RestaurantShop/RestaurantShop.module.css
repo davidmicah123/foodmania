@@ -1,5 +1,10 @@
 .shop_section{
-    margin: 4rem 0;
+    margin: 4rem auto;
+    display: flex;
+    /* gap: 1rem; */
+    width: 87vw;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgba(252, 251, 249, 0.68);
 }
 .dish_card_wrapper{
     width: 60vw;

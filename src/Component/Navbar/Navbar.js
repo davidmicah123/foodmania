@@ -16,9 +16,9 @@ function Navbar() {
               <Link to='/Home' className={classes.link}>
                 <li>Home</li>
               </Link>
-              <Link to='/Home' className={classes.link}>
+              {/* <Link to='/Home' className={classes.link}>
                 <li>Meals</li>
-              </Link>
+              </Link> */}
               <Link to='/ReataurantPage' className={classes.link}>
                 <li>Restaurant</li>
               </Link>

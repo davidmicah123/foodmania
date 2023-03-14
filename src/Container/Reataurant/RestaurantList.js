@@ -10,6 +10,7 @@ const RestaurantList = () => {
             restaurantData.map( (reataurant, index) => {
                 return <RestaurantCard 
                     key={index}
+                    restaurantId={reataurant.restaurantId}
                     restaurant_card_img={reataurant.Restaurant_img}
                     restaurant_card_header={reataurant.Restaurant_name}
                     restaurant_card_text={reataurant.Restaurant_description}

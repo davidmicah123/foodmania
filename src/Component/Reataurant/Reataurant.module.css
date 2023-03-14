@@ -19,12 +19,13 @@
 }
 .restaurant_card{
     display: flex;
+    align-items: center;
     gap: 1rem;
     padding: 0.7rem;
     cursor: pointer;
     border: 1px solid rgb(230, 230, 230);
 }
 .restaurant_card_img{
-    width: 8rem;
-    height: 5.5rem;
+    width: 9rem;
+    height: 6.5rem;
 }

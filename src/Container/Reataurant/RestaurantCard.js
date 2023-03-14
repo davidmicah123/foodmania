@@ -1,19 +1,34 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import classes from "./RestaurantCard.module.css";
+import { reduxWrapper } from '../../Store';
+import { restaurantActions } from '../../Store';
+import WithRouter from "../../Container/HOC/WithRouter";
 
-const RestaurantCard = (props) => {
-  return (
-    <div className={classes.restaurant_card}>
-        <img src={props.restaurant_card_img} alt="" className={classes.restaurant_card_img} />
-        <div>
-            <h3>{props.restaurant_card_header}</h3>
-            <p>{props.restaurant_card_text}</p>
+class RestaurantCard extends PureComponent {
+
+    viewRestaurant = () => {
+        console.log(this.props.restaurantId);
+        this.props.dispatch(restaurantActions.setcurrentRestaurantId({currentRestaurantId: this.props.restaurantId}));
+        this.props.router.navigate('/selectFood');
+        setTimeout(() => {
+            console.log(this.props.redux.restaurant);            
+        }, 2000);
+    }
+
+    render(){
+      return (
+        <div className={classes.restaurant_card}>
+            <img src={this.props.restaurant_card_img} alt="" className={classes.restaurant_card_img} />
+            <div>
+                <h3>{this.props.restaurant_card_header}</h3>
+                <p>{this.props.restaurant_card_text}</p>
+            </div>
+            <div className={classes.restaurant_action_btn_wrapper}>
+              <button className={classes.restaurant_action_btn} onClick={this.viewRestaurant} >View Menu</button>
+            </div>
         </div>
-        <div className={classes.restaurant_action_btn_wrapper}>
-          <button className={classes.restaurant_action_btn}>View Menu</button>
-        </div>
-    </div>
-  )
+      )
+    }
 }
 
-export default RestaurantCard;
+export default reduxWrapper(WithRouter(RestaurantCard));
