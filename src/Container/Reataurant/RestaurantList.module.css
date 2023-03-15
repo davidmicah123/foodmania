@@ -5,3 +5,16 @@
     width: 70vw;
     margin: 4rem auto;
 }
+
+
+
+@media (max-width: 1000px) {
+    .restaurant_list{
+        width: 85vw;
+    }
+}
+@media (max-width: 850px) {
+    .restaurant_list{
+        width: 95vw;
+    }
+}

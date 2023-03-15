@@ -17,7 +17,7 @@ class RestaurantCard extends PureComponent {
 
     render(){
       return (
-        <div className={classes.restaurant_card}>
+        <div className={classes.restaurant_card} onClick={this.viewRestaurant} >
             <img src={this.props.restaurant_card_img} alt="" className={classes.restaurant_card_img} />
             <div>
                 <h3>{this.props.restaurant_card_header}</h3>
