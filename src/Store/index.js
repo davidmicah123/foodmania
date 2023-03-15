@@ -17,6 +17,7 @@ const getState = () => {
     let initialState = {
         restaurant: {
             currentRestaurantId: null,
+            isNavbarOpen: false,
         }
     }
     if (storedState) {
@@ -46,6 +47,18 @@ const restaurantSlice = createSlice({
     name: "restaurant",
     initialState: appState.restaurant,
     reducers: {
+        openNavbar(state){
+            state.isNavbarOpen = true;
+
+            appState.restaurant = current(state);
+            localStorage.setItem("app_state", JSON.stringify(appState));
+        },
+        closeNavbar(state){
+            state.isNavbarOpen = false;
+
+            appState.restaurant = current(state);
+            localStorage.setItem("app_state", JSON.stringify(appState));
+        },
         setcurrentRestaurantId(state, { payload }){
             state.currentRestaurantId = payload.currentRestaurantId;
 

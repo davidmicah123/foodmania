@@ -139,7 +139,7 @@ export const allRestaurantData = [
             {
                 dish_image: 'path/to/veggie-pizza.jpg',
                 dish_name: 'Veggie Pizza',
-                dish_description: 'A delicious pizza loaded with a variety of fresh vegetables such as peppers, onions, mushrooms, and olives, along with tomato sauce and cheese.',
+                dish_description: 'A delicious pizza loaded with a variety of fresh vegetables such as peppers, onions, mushrooms, olives, along with tomato sauce and cheese.',
                 dish_price: '$13'
             },
             {

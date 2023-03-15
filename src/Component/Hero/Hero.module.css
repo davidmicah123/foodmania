@@ -75,3 +75,61 @@
     background: url(../../Assets/images/arrow-dotted.png);
     z-index: 100000;
 }
+
+
+@media (max-width: 1050px) {
+    .hero_header{
+        font-size: 2rem;
+    }
+    .step1:after, .step2:after{
+        display: none;
+    }
+    .hero_order_process{
+        width: 75vw;
+    }
+    .hero_container{
+        padding: 8rem 0;
+    }
+}
+@media (max-width: 850px) {
+    .hero_order_process{
+        width: 85vw;
+    }
+}
+@media (max-width: 780px) {
+    .hero_order_process{
+        width: 90vw;
+    }
+}
+@media (max-width: 750px) {
+    .hero_header{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .hero_order_process{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .order_proces_card{
+        font-size: 1.6rem;
+    }
+    .hero_container{
+        padding: 8.4rem 0;
+    }
+}
+@media (max-width: 600px) {
+    .hero_header{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .hero_content_wrapper{
+        width: 85vw;
+    }
+}
+@media (max-width: 550px) {
+    /* .hero_header{
+        text-align: center;
+        font-size: 1.2rem;
+    } */
+}

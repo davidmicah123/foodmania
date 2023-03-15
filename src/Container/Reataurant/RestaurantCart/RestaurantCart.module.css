@@ -58,3 +58,10 @@
     background-color: #449d44;
     border-radius: 0.2rem;
 }
+
+
+@media (max-width: 950px) {
+    .cart{
+        display: none;
+    }
+}

@@ -17,13 +17,13 @@
 .dish_card{
     display: flex;
     gap: 1rem;
-    padding: 1rem;
     width: 100%;
     border: 1px solid rgb(230, 230, 230);
 }
 .dish_card_img{
     width: 17vw;
     height: 20vh;
+    padding: 1rem;
 }
 
 .dish_card_content{
@@ -50,4 +50,37 @@
     color: #eaebeb;
     border-radius: 0.2rem;
     border: none;
+}
+
+
+@media (max-width: 950px) {
+    .shop_section{
+        width: 95vw;
+    }
+    .dish_card_wrapper{
+        width: 100%;
+    }
+    .dish_card{
+        gap: 0.5rem;
+    }
+    .dish_card_img{
+        width: 18vw;
+        height: 15vh;
+    }
+    .dish_card_pricing_area{
+        width: 25vw !important;
+    }
+    .add_to_cart_btn{
+        font-size: 0.9rem;
+        padding: 0.2rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .dish_card{
+        flex-direction: column;
+    }
+    .dish_card_img{
+        padding: 0;
+    }
 }

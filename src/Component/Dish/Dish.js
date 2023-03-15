@@ -29,7 +29,7 @@ const dishData = [
     },  
     {    
         dish_img: dish_img4,  
-        dish_name: "Pounded Yam and Egusi Soup",    
+        dish_name: "Amala & Egusi Soup",    
         dish_description: "A classic Nigerian combination of smooth, fluffy yam pounded into a dough-like consistency and served with a rich, flavorful soup made with ground melon seeds.",    
         dish_price: 1500 
      },

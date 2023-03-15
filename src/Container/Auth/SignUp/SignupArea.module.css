@@ -25,7 +25,7 @@
     background: #fff;
     border-top: 0.4rem solid #5c4ac7;
     
-    width: 48vw;
+    /* width: 48vw; */
     display: flex;
     flex-direction: column;
 }
@@ -76,4 +76,39 @@
     cursor: pointer;
     width: min-content;
     border-radius: 0.2rem;
+}
+
+@media (max-width: 680px) {
+    .signup__section{
+        height: 85vh;
+    }
+    .signup_box_top_area{
+        margin-bottom: 0;
+    }
+    .signup_input_area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 560px) {
+    .signup_box{
+        width: 65vw;
+    }
+    .signup_box_top_area{
+        padding: 1.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .signup_box{
+        width: 70vw;
+    }
+}
+@media (max-width: 460px) {
+    .signup_box{
+        width: 78vw;
+    }
+}
+@media (max-width: 430px) {
+    .signup_box{
+        width: 85vw;
+    }
 }

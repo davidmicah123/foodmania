@@ -30,3 +30,21 @@
 .footer_txt{
     line-height: 2.5;
 }
+
+@media (max-width: 700px) {
+    .footer_content_wrapper{
+        flex-direction: column;
+        justify-content: center;
+        width: 60vw;
+        gap: 1rem;
+    }
+    .footer_payment_method, .footer_address, .footer_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+}

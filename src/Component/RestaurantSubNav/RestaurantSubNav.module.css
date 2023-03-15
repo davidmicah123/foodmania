@@ -33,3 +33,14 @@
     background: white;
     border: 1px solid rgb(230, 230, 230);
 }
+
+@media (max-width: 890px) {
+    .sub_nav_container{
+        width: 90vw;
+    }
+}
+@media (max-width: 640px) {
+    .sub_nav{
+        display: none;
+    }
+}
