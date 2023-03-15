@@ -80,7 +80,30 @@
     .dish_card{
         flex-direction: column;
     }
+}
+@media (max-width: 550px) {
     .dish_card_img{
         padding: 0;
+        width: 100%;
+        height: 25vh;
+    }
+    .dish_card_content{
+        padding: 0.5rem;
+    }
+    .dish_card_pricing_area{
+        width: 100% !important;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .add_to_cart_btn{
+        padding: 0.4rem 0.7rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .dish_card_img{
+        height: 20vh;
     }
 }

@@ -35,6 +35,10 @@
 .mobile_nav_opener{
     display: none;
 }
+.mobile_nav_opener ion-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 
 .mobile_nav{
@@ -64,6 +68,10 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+.mobile_nav_closer ion-icon{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .mobile_nav_link_wrapper{
     display: flex;

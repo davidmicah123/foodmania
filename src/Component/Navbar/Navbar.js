@@ -40,7 +40,9 @@ class Navbar extends PureComponent {
                   <li>Register</li>
                 </Link>
               </ul>
-              <div className={classes.mobile_nav_opener} onClick={this.openMobileNav} >open navbar</div>
+              <div className={classes.mobile_nav_opener} onClick={this.openMobileNav} >
+                <ion-icon name="grid-outline"></ion-icon>
+              </div>
           </div>
           { 
             this.state.isMobileNavOpen === true ? 

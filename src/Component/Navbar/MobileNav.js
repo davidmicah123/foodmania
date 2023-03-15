@@ -8,7 +8,9 @@ const MobileNav = (props) => {
   return (
     <div className={classes.mobile_nav}>
         <div className={classes.mobile_nav_content_wrapper}>
-            <div className={classes.mobile_nav_closer} onClick={props.mobile_nav_closer}>close</div>
+            <div className={classes.mobile_nav_closer} onClick={props.mobile_nav_closer}>
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
             <div className={classes.mobile_nav_logo_wrapper}> 
                 <img src={foodmania} alt="" className={classes.logo}/> 
             </div>
